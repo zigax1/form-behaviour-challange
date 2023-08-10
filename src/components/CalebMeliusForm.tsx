@@ -131,7 +131,7 @@ const CalebMeliusForm = () => {
         <GrayLine />
         <button
           type="button"
-          className="bg-primary-blue px-8 py-4 w-full h-14 rounded-md cursor-pointer"
+          className="bg-primary-blue color-white px-8 py-4 w-full h-14 rounded-md cursor-pointer"
           onClick={handleButtonClick}
         >
           Save
