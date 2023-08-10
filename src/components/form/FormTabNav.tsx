@@ -4,16 +4,16 @@ const FormTabNav = () => {
   return (
     <div className="w-full">
       <div className="flex flex-wrap justify-center lg:justify-start text-center">
-        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[160px] h-[42px] flex items-center justify-center text-dark-blue cursor-pointer">
+        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[160px] h-[42px] flex items-center justify-center text-dark-blue cursor-pointer hover:text-primary-blue">
           Basic Information
         </div>
-        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[160px] h-[42px] flex items-center justify-center text-dark-blue cursor-pointer">
+        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[160px] h-[42px] flex items-center justify-center text-dark-blue cursor-pointer hover:text-primary-blue">
           Address
         </div>
-        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[160px] h-[42px] flex items-center justify-center text-dark-blue font-bold border-b-2 border-primary-blue cursor-pointer">
+        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[160px] h-[42px] flex items-center justify-center text-dark-blue font-bold border-b-2 border-primary-blue cursor-pointer ">
           Enrollment Status
         </div>
-        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[160px] h-[42px] flex items-center justify-center text-dark-blue cursor-pointer">
+        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[160px] h-[42px] flex items-center justify-center text-dark-blue cursor-pointer hover:text-primary-blue">
           Documents
         </div>
       </div>
