@@ -17,7 +17,7 @@ const AcknowledgmentSection = ({
     const newCheckedState = !isChecked;
     setIsChecked(newCheckedState);
     setIsError(false);
-    onAcknowledgmentChange(newCheckedState); // Call the parent callback
+    onAcknowledgmentChange(newCheckedState);
   };
 
   useEffect(() => {

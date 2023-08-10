@@ -32,21 +32,7 @@ const GradesSection = ({
   ];
 
   const [selectedCurrentGrade, setSelectedCurrentGrade] = useState<string>("");
-  // const [selectedCurrentGradeErr, setSelectedCurrentGradeErr] =
-  //   useState<boolean>(false);
   const [selectedApplyGrade, setSelectedApplyGrade] = useState<string>("");
-  // const [selectedApplyGradeErr, setSelectedApplyGradeErr] =
-  //   useState<boolean>(false);
-
-  // useEffect(() => {
-  //   if (validate()) {
-  //     setSelectedCurrentGradeErr(false);
-  //     setSelectedApplyGradeErr(false);
-  //   } else {
-  //     setSelectedCurrentGradeErr(!selectedCurrentGrade);
-  //     setSelectedApplyGradeErr(!selectedApplyGrade);
-  //   }
-  // }, [selectedCurrentGrade, selectedApplyGrade]);
 
   const filteredOptions = selectedCurrentGrade
     ? allOptions.filter(

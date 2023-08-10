@@ -31,20 +31,8 @@ const EnrollmentStatusSection = ({
     "Santo Domingo University",
   ];
 
-  // const [selectedStatusErr, setSelectedStatusErr] = useState<boolean>(false);
   const [selectedStatus, setSelectedStatus] = useState<string>("");
-  // const [selectedSchoolErr, setSelectedSchoolErr] = useState<boolean>(false);
   const [selectedSchool, setSelectedSchool] = useState<string>("");
-
-  // useEffect(() => {
-  //   if (validate()) {
-  //     setSelectedStatusErr(false);
-  //     setSelectedSchoolErr(false);
-  //   } else {
-  //     setSelectedStatusErr(!selectedStatus);
-  //     setSelectedSchoolErr(!selectedSchool);
-  //   }
-  // }, [selectedSchool, selectedStatus]);
 
   const onSelectStatus = (status: string) => {
     setSelectedStatus(status);

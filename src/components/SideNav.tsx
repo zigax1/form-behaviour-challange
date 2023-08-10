@@ -11,7 +11,6 @@ const SideNav = () => {
   return (
     <div>
       <div className="hidden md:block">
-        {/* Regular SideNav for larger screens */}
         <div className="text-dark-blue">
           <div className="pt-20">
             <div className="pl-11 py-4 pr-6 border-l-4 border-yellow-400 font-bold text-xl cursor-pointer">
@@ -31,7 +30,6 @@ const SideNav = () => {
       </div>
 
       <div className="md:hidden">
-        {/* Hamburger menu for smaller screens */}
         {!isOpen && (
           <button
             onClick={handleToggle}
